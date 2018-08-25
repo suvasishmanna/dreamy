@@ -1,9 +1,13 @@
 # Ignore configuration files that may contain sensitive information.
-sites/*/*settings*.php
-sites/example.sites.php
+sites/*/settings*.php
 
 # Ignore paths that contain generated content.
 files/
 sites/*/files
+sites/default/files/
 sites/*/private
 sites/*/translations
+
+.vscode
+.DS_Store
+*/.DS_Store

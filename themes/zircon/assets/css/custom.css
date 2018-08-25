@@ -1,0 +1,43 @@
+/**************************************************
+* ALL Custom CSS Are here
+**************************************************/
+@media only screen and (max-width: 600px) {
+    #featured .views-field-field-image {
+        width: 100%;
+    }
+    #featured .views-field-field-image img {
+        width: 100%;
+    }
+}
+
+/* Banner image insde service pages */
+#service_container img {
+	max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Video Block in Gallery Page */
+#block-video {
+	clear: both;
+}
+
+/* Preview button hide in Contact Us form */
+#contact-message-feedback-form #edit-preview {
+	display: none;
+}
+
+/* YouTube Video in About Us page */
+.video_container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 */
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
